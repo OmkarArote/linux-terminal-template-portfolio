@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Portal</title>
+        <script src="typed.js"></script>
+        <script src="jquery.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    </head>
+    <body>
+        <a style="visibility: hidden;" href="portfolio.html" id="button" class="button">Click Me</a>
+        <span id="a">root@olaser2a</span>: <span id="b">~$ sh ~/Desktop/myself/portal2portfolio.sh</span></br>
+        <span id="a">root@olaser2a</span>: <span id="b">~$</span> <i>_</i>
+        <div class=typed></div>
+        <script>
+            var typed5 = new Typed('.typed', {
+            strings: ['Hola!','Myself "Your Name"','Click the button below</br>To continue ;)'],
+            typeSpeed: 74,
+            backSpeed: 41,
+            cursorChar: '',
+            shuffle: false,
+            smartBackspace: true,
+            loop: false
+            });
+            function showbtn(){
+                document.getElementById("button").style.visibility="visible";
+            }
+            setTimeout("showbtn()",9500);
+        </script>
+    </body>
+</html>
